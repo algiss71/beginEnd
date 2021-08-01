@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1627753031 source:c:\users\user\documents\c++\beginend\tabl\main.cpp
+	<iostream>
+	<iomanip>
+
