@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    const int rows = 9;
+    const int cols = 9;
+    int arr[rows][cols];
+    int i = 0,j = 0;
+
+    for( i = 0; i < rows; i++)
+    {
+        if(i == 4)
+            for(j = 0; j < cols; j++)
+            {
+                if(j == 2)
+                    arr[i][j] = 3;
+                else
+                    arr[i][j] = 5;
+            }
+
+        else
+            for(j = 0; j < cols; j++)
+            {
+                    if(j == 2)
+                    arr[i][j] = 3;
+
+            }
+                arr[i][j] = ( i + 1) * (j + 1);
+    }
+
+    for( i = 0; i < rows; i++)
+    {
+        for( j = 0; j < cols; j++)
+            printf("%2d ",arr[i][j]);
+
+        printf("\n");
+
+    }
+    return 0;
+}

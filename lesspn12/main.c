@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <conio.h>
 #include <locale.h>
+#include <time.h>
 int main()
 {
 
@@ -38,6 +39,8 @@ int main()
 
         for(i = 0; i < 10; i++)
             printf("%s\n", mass[i]);
+        printf("\n —ьедено €блок = %d", a );
+
         /*
         проинициализируем нашу локацию, котора€ будет состо€ть
         из пустого пространства и стен которые еЄ ограничивают.
@@ -70,7 +73,7 @@ int main()
     }
     while(key != 'e');
 
-        printf("\n —ьедено €блок = %d", a );
+
 
 
     return 0;

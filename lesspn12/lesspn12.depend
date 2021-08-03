@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1627978212 source:f:\beginend\lesspn12\main.c
+1627982726 source:f:\beginend\lesspn12\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
+	<locale.h>
 
