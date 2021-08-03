@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define N 10
+int main()
+{
+    int i = 0;
+    int arr[N];
+    srand (time(NULL));
+    int rnd;
+
+    rnd = rand() % 19;
+    if(rnd<10)
+        
+    printf("%d \n", rnd);
+
+    for(i = 0; i < N; i++)
+    {
+        arr[i] = rand() % 39;
+        printf("%d ",arr[i]);
+    }
+        printf("\n");
+
+
+    return 0;
+}

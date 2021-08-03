@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+typedef struct commode{
+int l,w,h;
+char name[50];
+char color[10];
+}com;
+
+int main()
+{
+
+    setlocale(LC_ALL, "Russian");
+
+    com c;
+    c.l = 100;
+    c.w = 60;
+    c.h = 120;
+    sprintf(c.name, "Rich");
+    sprintf(c.color,"Black");
+    printf("Комод %s, цвет %s, длина %d, ширина %d, высота %d\n", c.name, c.color, c.l, c.w, c.h);
+
+    com arr[3];
+    arr[0].l = 100;
+    arr[0].
+
+
+
+    return 0;
+}
