@@ -1,31 +1,35 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void init(int rows, int cols)
+void init(int arr[][],const int rows,const int cols)
 {
-    int i,j;
-    int a[rows][cols];
+     int i,j;
     for(i = 0; i < rows; i++)
         for(j = 0; j < cols; j++)
-            a[i][j] = ( i + 1) * (j + 1);
+            arr[i][j] = ( i + 1) * (j + 1);
 }
 
-void printArray(int rows, int cols)
+void printArray(int arr[][],const int rows,const int cols)
 {
     int i,j;
     for(i = 0; i < rows; i++)
     {
         for(j = 0; j < cols; j++)
-            printf("%2d ",a[i][j]);
+            printf("%2d ",arr[i][j]);
 
         printf("\n");
 
 }
 int main()
 {
-    int r,c;
-    r=9;c=9;
-    init(r,c);
+    const int r;
+    const int c;
+    int arr[r][c];
+
+
+    init(a[r][c],r,c);
+
+
     printArray(r,c);
 
 
