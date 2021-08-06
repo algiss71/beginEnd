@@ -9,14 +9,17 @@ int main()
     int arr[N];
     srand (time(NULL));
     int rnd;
+    int rnd1;
 
     rnd = rand() % 10 + 9;
         printf("%d \n", rnd);
 
     for(i = 0; i < N; i++)
     {
-        arr[i] = rand() % 20 + 19;;
-        printf("%d ",arr[i]);
+        rnd = rand();
+        rnd1 = rnd % 20;
+        arr[i] = rnd1 + 19;;
+        printf("%d - %d - %d\n ",rnd, rnd1, arr[i]);
     }
         printf("\n");
 
