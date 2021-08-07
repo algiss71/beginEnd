@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1628343480 source:c:\users\user\documents\c++\beginend\arcanoid\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<windows.h>
+
